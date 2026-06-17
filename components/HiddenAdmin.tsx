@@ -28,7 +28,7 @@ export default function HiddenAdmin({
     // Redirect after 5 clicks
     if (newCount >= 5) {
       setClickCount(0);
-      router.push("/admin");
+      router.push("/hidden-admin");
     }
   };
 
